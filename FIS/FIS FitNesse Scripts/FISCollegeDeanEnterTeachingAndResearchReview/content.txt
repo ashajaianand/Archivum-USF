@@ -1,0 +1,65 @@
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                      |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to T&P Application Candidate Nomination Screen
+!| script                     |
+|login with username|U30846135| and password |asdf1234.|
+|click on report |Tenure and Promotion Dashboard|
+|click on link |In Progress|
+|click on link |Related Actions|
+|click on link |Agree to Integrity|
+|click on checkbox option |[1]|
+|click on button |Submit|
+|click on link |Related Actions|
+|click on link |Update Teaching|
+|populate |paragraph| field |[2]| with |Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. nascetur ridiculus mus. Donec quam felis ultricies nec pellentesque eu pretium quisem. Nulla consequat massa quis enim. Donec pede justo fringilla vel aliquet nec vulputate eget arcu. In enim just rhoncus ut imperdiet a venenatis vitae justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus|
+|click on button |DocuSign|
+|click on button |Yes|
+|click on link |Related Actions|
+|click on link |Update Research|
+|populate |paragraph| field |[2]| with |Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. nascetur ridiculus mus. Donec quam felis ultricies nec pellentesque eu pretium quisem. Nulla consequat massa quis enim. Donec pede justo fringilla vel aliquet nec vulputate eget arcu. In enim just rhoncus ut imperdiet a venenatis vitae justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus|
+|click on button |DocuSign|
+|click on button |Yes|
+|click on link |Related Actions|
+|click on link |Update External Reviews|
+|click on link |External Review Documents|
+|click on link |Add External Reviewer|
+|populate field |Name| with |John Brown|
+|populate field |Institution| with |University of Florida|
+|click on checkbox option |Yes|
+|populate field |Department| with |Psychology|
+|populate field |Rank| with |Full Professor|
+|populate field |Bio URL| with |www.uf.edu/bio/JohnBrown|
+|populate field |Reviewer Bio| with |Bio for John Brown asdfwefasdfasdgasghasflaweiufsdnflkskajdasdlfkjaslkdfjslf|
+|click on button |Add Reviewer|
+|click on link |Add External Reviewer|
+|populate field |Name| with |Lauren Johnson|
+|populate field |Institution| with |University of Miami|
+|click on checkbox option |Yes|
+|populate field |Department| with |Psychology|
+|populate field |Rank| with |Department Chair|
+|populate field |Bio URL| with |www.umfl.edu/bio/LaurenJohnson|
+|populate field |Reviewer Bio| with |Bio for Lauren Johnson asdfwefasdfasdgasghasflaweiufsdnflkskajdasdlfkjaslkdfjslf|
+|click on button |Add Reviewer|
+|click on link |Add External Reviewer|
+|populate field |Name| with |James Lee|
+|populate field |Institution| with |University of Central Florida|
+|click on checkbox option |Yes|
+|populate field |Department| with |Psychology|
+|populate field |Rank| with |Associate Professor|
+|populate field |Bio URL| with |www.ucf.edu/bio/JamesLee|
+|populate field |Reviewer Bio| with |Bio for James Lee asdfwefasdfasdgasghasflaweiufsdnflkskajdasdlfkjaslkdfjslf|
+|click on button |Add Reviewer|
+|click on button |Save and Close|
+|wait for |+5 minutes|

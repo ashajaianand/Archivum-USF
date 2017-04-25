@@ -1,0 +1,25 @@
+ * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                      |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to T&P Dashboard
+!| script                     |
+|login with username|U33717156|and password|asdf1234.|
+|click on report |Tenure and Promotion Dashboard|
+|click on link |Identify Candidates|
+|populate field |Find Eligible Faculty| in section |Select Eligible Faculty Member(s)| with |John Adams|
+|click on button|Add to List|
+|populate grid |[2]| column |[3]| row |[1]| with value |[4]|
+|populate grid |[2]| column |[5]| row |[1]| with value |College Only|
+|populate grid |[2]| column |[8]| row |[1]| with value |USF Tampa Chief Academic|
+|click on button |Submit|

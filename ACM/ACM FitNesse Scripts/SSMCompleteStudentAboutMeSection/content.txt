@@ -1,0 +1,37 @@
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                      |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Faculty Profile and Navigate to Update Faculty Record page
+!| script                     |
+|login with username|U47596203| and password |asdf1234.|
+|click on report |My Student Dashboard|
+|click on link |My Actions|
+|click on link |Update About Me|
+|clear field |Preferred Name|
+|populate field |Preferred Name| with |Nikki|
+|clear field |Preferred Communication Method|
+|click on radio option |Phone|
+|clear field |Alternate Phone Number|
+|populate field |Alternate Phone Number| with |123-456-7890|
+|clear field |Skype ID|
+|populate field |Skype ID| with |nabdoskype|
+|clear field |Narrative Bio|
+|populate |paragraph| field |[1]| with value |Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.|
+|clear field |What are your current extracurricular activities? Are there any that you would like to participate in?|
+|populate |paragraph| field |[2]| with value |Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.|
+|clear field |What are your career plans for your major?|
+|populate |paragraph| field |[3]| with value |Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.|
+|clear field |Describe your current employment status|
+|populate |paragraph| field |[4]| with value |Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.|
+|click on button |Submit|

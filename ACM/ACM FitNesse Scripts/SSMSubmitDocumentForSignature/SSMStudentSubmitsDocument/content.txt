@@ -1,0 +1,24 @@
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                      |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Faculty Profile and Navigate to Update Faculty Record page
+!| script                     |
+|login with username|U47596203| and password |asdf1234.|
+|click on report |My Student Dashboard|
+|click on link |My Actions|
+|click on link |Submit for Signature|
+|wait for |+1 minute|
+|populate field |Description| with value |Please sign this change of major form|
+|populate field |Recipient| with |Claudia Aguado Loi|
+|click on button |Submit|

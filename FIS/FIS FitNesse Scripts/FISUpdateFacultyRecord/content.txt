@@ -1,0 +1,323 @@
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                      |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Faculty Profile and Navigate to Update Faculty Record page
+!| script                     |
+|login with username|U57936635| and password |asdf1234.|
+|click on menu |Records|
+|click on record type |Faculty Records|
+|search for |Claudia Aguado Loi|
+|click on link |Claudia Aguado Loi|
+|click on link |Related Actions|
+|click on link |Update Faculty Bio|
+|click on link |Personal Information|
+|populate field |Initial Date of USF Employment| with |2/11/2014|
+|populate field |Present Rank Effective Date| with |8/7/2015|
+|populate field |Years of Credit Awarded Towards Tenure Upon Appointment| with |1|
+|populate field |Initial Rank| with |Assistant Professor|
+|populate field |Present Rank| with |Associate Professor|
+|populate field |Years Completed in Rank at USF| with |2|
+|populate field |Tenure FTE| with |0|
+|click on radio option |9 months|
+|populate |paragraph| field |[1]| with |Personal statement for Biographical sketch asdfasweVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curaeleo. Maecenas malesuada. Praesent congue erat at massa..|
+|click on grid |[1]| add row link|
+|populate grid |[1]| column |[1]| row |[1]| with value |University of Florida|
+|populate grid |[1]| column |[2]| row |[1]| with value |Gainesville, FL|
+|populate grid |[1]| column |[3]| row |[1]| with value |Psychology|
+|populate grid |[1]| column |[4]| row |[1]| with value |B.S.|
+|populate grid |[1]| column |[5]| row |[1]| with value |5/6/2010|
+|populate grid |[1]| column |[6]| row |[1]| with value |comments|
+|click on grid |[1]| add row link|
+|populate grid |[1]| column |[1]| row |[2]| with value |University of Maryland|
+|populate grid |[1]| column |[2]| row |[2]| with value |Baltimore, MD |
+|populate grid |[1]| column |[3]| row |[2]| with value |Psychology|
+|populate grid |[1]| column |[4]| row |[2]| with value |M.S.|
+|populate grid |[1]| column |[5]| row |[2]| with value |5/6/2013|
+|populate grid |[1]| column |[6]| row |[2]| with value |comments|
+|click on grid |[2]| add row link|
+|populate grid |[2]| column |[1]| row |[1]| with value |University of South Florida|
+|populate grid |[2]| column |[2]| row |[1]| with value |Assistant Professor|
+|populate grid |[2]| column |[3]| row |[1]| with value |2/11/2014|
+|populate grid |[2]| column |[4]| row |[1]| with value |8/6/2015|
+|click on grid |[2]| add row link|
+|populate grid |[2]| column |[1]| row |[2]| with value |University of South Florida|
+|populate grid |[2]| column |[2]| row |[2]| with value |Associate Professor|
+|populate grid |[2]| column |[3]| row |[2]| with value |8/7/2015|
+|populate grid |[2]| column |[4]| row |[2]| with value |8/6/2016|
+|click on grid |[3]| add row link|
+|populate grid |[3]| column |[1]| row |[1]| with value |University of Florida|
+|populate grid |[3]| column |[2]| row |[1]| with value |Gainesville, FL|
+|populate grid |[3]| column |[3]| row |[1]| with value |Associate Professor|
+|populate grid |[3]| column |[4]| row |[1]| with value |2/25/2013|
+|populate grid |[3]| column |[5]| row |[1]| with value |3/16/2015|
+|populate grid |[3]| column |[6]| row |[1]| with value |NON-USF|
+|populate grid |[3]| column |[7]| row |[1]| with value |2|
+|populate grid |[3]| column |[8]| row |[1]| with value |75|
+|click on grid |[3]| add row link|
+|populate grid |[3]| column |[1]| row |[2]| with value |University of South Florida|
+|populate grid |[3]| column |[2]| row |[2]| with value |Tampa, FL|
+|populate grid |[3]| column |[3]| row |[2]| with value |Assistant Professor|
+|populate grid |[3]| column |[4]| row |[2]| with value |1/9/2016|
+|populate grid |[3]| column |[6]| row |[2]| with value |USF|
+|populate grid |[3]| column |[7]| row |[2]| with value |1|
+|populate grid |[3]| column |[8]| row |[2]| with value |50|
+|populate |paragraph| field |[2]| with |Narrative for teaching goals and accomplishments asdfasweVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curaeleo. Maecenas malesuada. Praesent congue erat at massa..|
+|click on grid |[4]| add row link|
+|populate grid |[4]| column |[1]| row |[1]| with value |2014|
+|populate grid |[4]| column |[2]| row |[1]| with value |SP|
+|populate grid |[4]| column |[3]| row |[1]| with value |PSY|
+|populate grid |[4]| column |[4]| row |[1]| with value |1101|
+|populate grid |[4]| column |[5]| row |[1]| with value |Psychology 101|
+|populate grid |[4]| column |[6]| row |[1]| with value |001|
+|populate grid |[4]| column |[7]| row |[1]| with value |2|
+|populate grid |[4]| column |[8]| row |[1]| with value |Offering|
+|populate grid |[4]| column |[9]| row |[1]| with value |comments|
+|click on grid |[4]| add row link|
+|populate grid |[4]| column |[1]| row |[2]| with value |2014|
+|populate grid |[4]| column |[2]| row |[2]| with value |FA|
+|populate grid |[4]| column |[3]| row |[2]| with value |PSY|
+|populate grid |[4]| column |[4]| row |[2]| with value |1101|
+|populate grid |[4]| column |[5]| row |[2]| with value |Psychology 101|
+|populate grid |[4]| column |[6]| row |[2]| with value |001|
+|populate grid |[4]| column |[7]| row |[2]| with value |2|
+|populate grid |[4]| column |[8]| row |[2]| with value |offering|
+|populate grid |[4]| column |[9]| row |[2]| with value |comments|
+|click on grid |[5]| add row link|
+|populate grid |[5]| column |[1]| row |[1]| with value |Teaching|
+|populate grid |[5]| column |[2]| row |[1]| with value |Award1|
+|populate grid |[5]| column |[3]| row |[1]| with value |2014|
+|click on grid |[5]| add row link|
+|populate grid |[5]| column |[1]| row |[2]| with value |Teaching|
+|populate grid |[5]| column |[2]| row |[2]| with value |Award2|
+|populate grid |[5]| column |[3]| row |[2]| with value |2015|
+|click on checkbox option |My unit does not utilize Post-Docs.|
+|click on checkbox option |My unit does not have a Ph.D program.|
+|click on grid |[6]| add row link|
+|populate grid |[6]| column |[1]| row |[1]| with value |Honor's Thesis Committee|
+|populate grid |[6]| column |[2]| row |[1]| with value |Jack Brown|
+|populate grid |[6]| column |[3]| row |[1]| with value |3/14/2014|
+|populate grid |[6]| column |[4]| row |[1]| with value |5/6/2014|
+|populate grid |[6]| column |[6]| row |[1]| with value |comments|
+|click on grid |[6]| add row link|
+|populate grid |[6]| column |[1]| row |[2]| with value |Master's Thesis Committee|
+|populate grid |[6]| column |[2]| row |[2]| with value |Sandy Lowell|
+|populate grid |[6]| column |[3]| row |[2]| with value |1/14/2015|
+|populate grid |[6]| column |[4]| row |[2]| with value |5/6/2016|
+|populate grid |[6]| column |[5]| row |[2]| with value |[1]|
+|populate grid |[6]| column |[6]| row |[2]| with value |comments|
+|populate |paragraph| field |[3]| with |Service goals and accomplishments narrative asdfasweVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curaeleo. Maecenas malesuada. Praesent congue erat at massa..|
+|click on grid |[7]| add row link|
+|populate grid |[7]| column |[1]| row |[1]| with value |Community|
+|populate grid |[7]| column |[2]| row |[1]| with value |Volunteer|
+|populate grid |[7]| column |[3]| row |[1]| with value |Metropolitan Ministries|
+|populate grid |[7]| column |[4]| row |[1]| with value |Local|
+|populate grid |[7]| column |[6]| row |[1]| with value |5/25/2014|
+|populate grid |[7]| column |[8]| row |[1]| with value |description|
+|click on grid |[7]| add row link|
+|populate grid |[7]| column |[1]| row |[2]| with value |Professional|
+|populate grid |[7]| column |[2]| row |[2]| with value |Vice President|
+|populate grid |[7]| column |[3]| row |[2]| with value |American Association of Psychology|
+|populate grid |[7]| column |[4]| row |[2]| with value |National|
+|populate grid |[7]| column |[5]| row |[2]| with value |[1]|
+|populate grid |[7]| column |[6]| row |[2]| with value |5/6/2016|
+|populate grid |[7]| column |[8]| row |[2]| with value |comments|
+|populate |paragraph| field |[4]| with |Research goals and accomplishments narrative asdfasweVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curaeleo. Maecenas malesuada. Praesent congue erat at massa..|
+|click on grid |[8]| add row link|
+|populate grid |[8]| column |[1]| row |[1]| with value |Title1|
+|populate grid |[8]| column |[2]| row |[1]| with value |Tampa, FL|
+|populate grid |[8]| column |[3]| row |[1]| with value |1/30/2017|
+|populate grid |[8]| column |[4]| row |[1]| with value |Commissioned|
+|populate grid |[8]| column |[5]| row |[1]| with value |Locally Significant|
+|populate grid |[8]| column |[6]| row |[1]| with value |Solo|
+|populate grid |[8]| column |[7]| row |[1]| with value |Important|
+|populate grid |[8]| column |[8]| row |[1]| with value |Completed|
+|populate grid |[8]| column |[9]| row |[1]| with value |description|
+|click on grid |[8]| add row link|
+|populate grid |[8]| column |[1]| row |[2]| with value |Title2|
+|populate grid |[8]| column |[2]| row |[2]| with value |Denver, CO|
+|populate grid |[8]| column |[3]| row |[2]| with value |1/28/2017|
+|populate grid |[8]| column |[4]| row |[2]| with value |Collection Acquisition|
+|populate grid |[8]| column |[5]| row |[2]| with value |Nationally Significant|
+|populate grid |[8]| column |[6]| row |[2]| with value |Group|
+|populate grid |[8]| column |[7]| row |[2]| with value |Very important|
+|populate grid |[8]| column |[8]| row |[2]| with value |Completed|
+|populate grid |[8]| column |[9]| row |[2]| with value |description|
+|click on grid |[9]| add row link|
+|populate grid |[9]| column |[1]| row |[1]| with value |Title1|
+|populate grid |[9]| column |[2]| row |[1]| with value |Tampa, FL|
+|populate grid |[9]| column |[3]| row |[1]| with value |1/30/2017|
+|populate grid |[9]| column |[4]| row |[1]| with value |Judged|
+|populate grid |[9]| column |[5]| row |[1]| with value |John Adams|
+|populate grid |[9]| column |[6]| row |[1]| with value |Locally Significant|
+|populate grid |[9]| column |[7]| row |[1]| with value |Solo|
+|populate grid |[9]| column |[8]| row |[1]| with value |Important|
+|populate grid |[9]| column |[9]| row |[1]| with value |Completed|
+|populate grid |[9]| column |[10]| row |[1]| with value |description|
+|click on grid |[9]| add row link|
+|populate grid |[9]| column |[1]| row |[2]| with value |Title2|
+|populate grid |[9]| column |[2]| row |[2]| with value |Denver, CO|
+|populate grid |[9]| column |[3]| row |[2]| with value |1/28/2017|
+|populate grid |[9]| column |[4]| row |[2]| with value |Reviewed|
+|populate grid |[9]| column |[5]| row |[2]| with value |Claudia Aguado Loi|
+|populate grid |[9]| column |[6]| row |[2]| with value |Nationally Significant|
+|populate grid |[9]| column |[7]| row |[2]| with value |Group|
+|populate grid |[9]| column |[8]| row |[2]| with value |Very important|
+|populate grid |[9]| column |[9]| row |[2]| with value |Completed|
+|populate grid |[9]| column |[10]| row |[2]| with value |description|
+|click on grid |[10]| add row link|
+|populate grid |[10]| column |[1]| row |[1]| with value |Title1|
+|populate grid |[10]| column |[2]| row |[1]| with value |Tampa, FL|
+|populate grid |[10]| column |[3]| row |[1]| with value |1/30/2017|
+|populate grid |[10]| column |[4]| row |[1]| with value |Curated|
+|populate grid |[10]| column |[5]| row |[1]| with value |John Adams|
+|populate grid |[10]| column |[6]| row |[1]| with value |Locally Significant|
+|populate grid |[10]| column |[7]| row |[1]| with value |Solo|
+|populate grid |[10]| column |[8]| row |[1]| with value |Important|
+|populate grid |[10]| column |[9]| row |[1]| with value |Completed|
+|populate grid |[10]| column |[10]| row |[1]| with value |description|
+|click on grid |[10]| add row link|
+|populate grid |[10]| column |[1]| row |[2]| with value |Title2|
+|populate grid |[10]| column |[2]| row |[2]| with value |Denver, CO|
+|populate grid |[10]| column |[3]| row |[2]| with value |1/28/2017|
+|populate grid |[10]| column |[4]| row |[2]| with value |Invited|
+|populate grid |[10]| column |[5]| row |[2]| with value |Claudia Aguado Loi|
+|populate grid |[10]| column |[6]| row |[2]| with value |Nationally Significant|
+|populate grid |[10]| column |[7]| row |[2]| with value |Group|
+|populate grid |[10]| column |[8]| row |[2]| with value |Very important|
+|populate grid |[10]| column |[9]| row |[2]| with value |Completed|
+|populate grid |[10]| column |[10]| row |[2]| with value |description|
+|click on grid |[11]| add row link|
+|populate grid |[11]| column |[1]| row |[1]| with value |Title1|
+|populate grid |[11]| column |[2]| row |[1]| with value |Tampa, FL|
+|populate grid |[11]| column |[3]| row |[1]| with value |1/30/2017|
+|populate grid |[11]| column |[4]| row |[1]| with value |Juried|
+|populate grid |[11]| column |[5]| row |[1]| with value |John Adams|
+|populate grid |[11]| column |[6]| row |[1]| with value |Locally Significant|
+|populate grid |[11]| column |[7]| row |[1]| with value |Solo|
+|populate grid |[11]| column |[8]| row |[1]| with value |Important|
+|populate grid |[11]| column |[9]| row |[1]| with value |Completed|
+|populate grid |[11]| column |[10]| row |[1]| with value |description|
+|click on grid |[11]| add row link|
+|populate grid |[11]| column |[1]| row |[2]| with value |Title2|
+|populate grid |[11]| column |[2]| row |[2]| with value |Denver, CO|
+|populate grid |[11]| column |[3]| row |[2]| with value |1/28/2017|
+|populate grid |[11]| column |[4]| row |[2]| with value |Judged|
+|populate grid |[11]| column |[5]| row |[2]| with value |Claudia Aguado Loi|
+|populate grid |[11]| column |[6]| row |[2]| with value |Nationally Significant|
+|populate grid |[11]| column |[7]| row |[2]| with value |Group|
+|populate grid |[11]| column |[8]| row |[2]| with value |Very important|
+|populate grid |[11]| column |[9]| row |[2]| with value |Completed|
+|populate grid |[11]| column |[10]| row |[2]| with value |description|
+|click on grid |[12]| add row link|
+|populate grid |[12]| column |[1]| row |[1]| with value |Grant1|
+|populate grid |[12]| column |[2]| row |[1]| with value |Co-Investigator|
+|populate grid |[12]| column |[3]| row |[1]| with value |Claudia Aguado Loi|
+|populate grid |[12]| column |[4]| row |[1]| with value |agency|
+|populate grid |[12]| column |[5]| row |[1]| with value |purpose|
+|populate grid |[12]| column |[6]| row |[1]| with value |training|
+|populate grid |[12]| column |[7]| row |[1]| with value |2000|
+|populate grid |[12]| column |[8]| row |[1]| with value |25|
+|populate grid |[12]| column |[9]| row |[1]| with value |2014|
+|populate grid |[12]| column |[10]| row |[1]| with value |2016|
+|populate grid |[12]| column |[11]| row |[1]| with value |Yes|
+|click on grid |[12]| add row link|
+|populate grid |[12]| column |[1]| row |[2]| with value |Title2|
+|populate grid |[12]| column |[2]| row |[2]| with value |Director|
+|populate grid |[12]| column |[3]| row |[2]| with value |Claudia Aguado Loi|
+|populate grid |[12]| column |[4]| row |[2]| with value |agency|
+|populate grid |[12]| column |[5]| row |[2]| with value |purpose|
+|populate grid |[12]| column |[6]| row |[2]| with value |training|
+|populate grid |[12]| column |[7]| row |[2]| with value |5000|
+|populate grid |[12]| column |[8]| row |[2]| with value |40|
+|populate grid |[12]| column |[9]| row |[2]| with value |2015|
+|populate grid |[12]| column |[11]| row |[2]| with value |No|
+|click on grid |[13]| add row link|
+|populate grid |[13]| column |[1]| row |[1]| with value |Title1|
+|populate grid |[13]| column |[2]| row |[1]| with value |Evaluator|
+|populate grid |[13]| column |[3]| row |[1]| with value |Jack Brown|
+|populate grid |[13]| column |[4]| row |[1]| with value |agency|
+|populate grid |[13]| column |[5]| row |[1]| with value |purpose|
+|populate grid |[13]| column |[6]| row |[1]| with value |training|
+|populate grid |[13]| column |[7]| row |[1]| with value |disposition|
+|populate grid |[13]| column |[8]| row |[1]| with value |Applied but not Selected|
+|click on grid |[13]| add row link|
+|populate grid |[13]| column |[1]| row |[2]| with value |Title2|
+|populate grid |[13]| column |[2]| row |[2]| with value |Mentor|
+|populate grid |[13]| column |[3]| row |[2]| with value |Diane Lawson|
+|populate grid |[13]| column |[4]| row |[2]| with value |agency|
+|populate grid |[13]| column |[5]| row |[2]| with value |purpose|
+|populate grid |[13]| column |[6]| row |[2]| with value |training|
+|populate grid |[13]| column |[7]| row |[2]| with value |dispotioin|
+|populate grid |[13]| column |[8]| row |[2]| with value |Currently Under Review|
+|click on grid |[14]| add row link|
+|populate grid |[14]| column |[1]| row |[1]| with value |Paper|
+|populate grid |[14]| column |[2]| row |[1]| with value |Paper1|
+|populate grid |[14]| column |[3]| row |[1]| with value |Claudia Aguado Loi|
+|populate grid |[14]| column |[4]| row |[1]| with value |2/12/2017|
+|populate grid |[14]| column |[5]| row |[1]| with value |description|
+|populate grid |[14]| column |[6]| row |[1]| with value |Regional|
+|populate grid |[14]| column |[7]| row |[1]| with value |[1]|
+|populate grid |[14]| column |[8]| row |[1]| with value |[1]|
+|populate grid |[14]| column |[9]| row |[1]| with value |[1]|
+|click on grid |[14]| add row link|
+|populate grid |[14]| column |[1]| row |[2]| with value |Speech|
+|populate grid |[14]| column |[2]| row |[2]| with value |Speech1|
+|populate grid |[14]| column |[3]| row |[2]| with value |Claudia Aguado Loi|
+|populate grid |[14]| column |[4]| row |[2]| with value |1/30/2017|
+|populate grid |[14]| column |[5]| row |[2]| with value |description|
+|populate grid |[14]| column |[6]| row |[2]| with value |National|
+|populate grid |[14]| column |[7]| row |[1]| with value |[1]|
+|populate grid |[14]| column |[8]| row |[1]| with value |[1]|
+|click on grid |[15]| add row link|
+|populate grid |[15]| column |[1]| row |[1]| with value |Book|
+|populate grid |[15]| column |[2]| row |[1]| with value |Psychology in the World|
+|populate grid |[15]| column |[3]| row |[1]| with value |Claudia Aguado Loi, Jack Brown|
+|populate grid |[15]| column |[4]| row |[1]| with value |1234667891232|
+|populate grid |[15]| column |[5]| row |[1]| with value |2016|
+|populate grid |[15]| column |[6]| row |[1]| with value |McGrawHill|
+|populate grid |[15]| column |[7]| row |[1]| with value |Submitted|
+|click on grid |[15]| add row link|
+|populate grid |[15]| column |[1]| row |[2]| with value |Textbook|
+|populate grid |[15]| column |[2]| row |[2]| with value |Psychology 101|
+|populate grid |[15]| column |[3]| row |[2]| with value |Claudia Aguado Loi, Diane Lawson|
+|populate grid |[15]| column |[4]| row |[2]| with value |78945461237894|
+|populate grid |[15]| column |[5]| row |[2]| with value |2015|
+|populate grid |[15]| column |[6]| row |[2]| with value |McGrawHill|
+|populate grid |[15]| column |[7]| row |[2]| with value |Published|
+|populate grid |[15]| column |[8]| row |[2]| with value |[1]|
+|click on grid |[16]| add row link|
+|populate grid |[16]| column |[1]| row |[1]| with value |Refereed Article|
+|populate grid |[16]| column |[2]| row |[1]| with value |Article1|
+|populate grid |[16]| column |[3]| row |[1]| with value |World Journal of Psychology|
+|populate grid |[16]| column |[4]| row |[1]| with value |2014|
+|populate grid |[16]| column |[15]| row |[1]| with value |Accepted|
+|click on grid |[16]| add row link|
+|populate grid |[16]| column |[1]| row |[2]| with value |Non-Refereed Article|
+|populate grid |[16]| column |[2]| row |[2]| with value |Article 2|
+|populate grid |[16]| column |[3]| row |[2]| with value |Journal of Clinical Psychology|
+|populate grid |[16]| column |[4]| row |[2]| with value |2015|
+|populate grid |[16]| column |[15]| row |[2]| with value |Published|
+|populate grid |[16]| column |[16]| row |[2]| with value |[1]|
+|click on grid |[17]| add row link|
+|populate grid |[17]| column |[1]| row |[1]| with value |Other|
+|populate grid |[17]| column |[2]| row |[1]| with value |sample citation|
+|populate grid |[17]| column |[3]| row |[1]| with value |2012|
+|populate grid |[17]| column |[4]| row |[1]| with value |Accepted|
+|click on grid |[17]| add row link|
+|populate grid |[17]| column |[1]| row |[2]| with value |Technical Report|
+|populate grid |[17]| column |[2]| row |[2]| with value |sample citation|
+|populate grid |[17]| column |[3]| row |[2]| with value |2014|
+|populate grid |[17]| column |[4]| row |[2]| with value |Published|
+|populate grid |[17]| column |[5]| row |[2]| with value |[1]|
+|click on button |Save and Close|
