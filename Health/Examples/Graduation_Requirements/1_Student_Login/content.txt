@@ -1,0 +1,68 @@
+!3 Please fill out the following before testing
+ * If your TESTING_HOME is located somewhere other than ${automated.testing.home}, update ''automated.testing.home'' in TESTING_HOME/configs/custom.properties
+  * For more information look at [[Changing !-FitNesse-! for Appian installation directory][.FitNesseForAppian.Documentation.Administration.ChangeFitnesseForAppianInstallationDirectory]].
+ * Update the following
+  * Replace ''APPIAN_URL'' with Appian URL including /suite (e.g. https://forum.appian.com/suite)
+  * Replace ''APPIAN_LOCALE'' with (en_US or en_GB) to handle differences in how dates are displayed
+  * Replace ''APPIAN_VERSION'' with (7.10, 7.11, 16.1, 16.2, 16.3)
+  * Replace ''APPIAN_USERNAME'' with username for Appian URL above
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                        |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Tempo and go to Records with Shabnam Mehra
+!| script                     |
+|login with username|U56457223 |and password|asdf1234.|
+| click on menu |Actions|
+|click on link|Create New Activity |
+| populate field | Title | with |New Activity| 
+| populate field |Brief Description| with |Description Added|
+| populate field | Type| with |Service Learning| 
+| populate field | Start Date| with |1/10/2017|
+| populate field | End Date| with |1/18/2017|
+| populate field | Name| with |John|
+| populate field | Department/Institution| with |Department|
+| populate field | Email| with |John@usf.edu|
+| populate field | Phone| with |9956182356|
+| populate field | Location| with |CAMLS|
+|click on link|Add Collaborator |
+| populate grid |[1]|column | [2] | row | [1] |with |coll@usf.edu|
+| populate grid |[1]|column | [4] | row | [1] |with |College of Nursing|
+| populate grid |[1]|column | [5] | row | [1] |with |Role|
+| populate field | Notes| with |Notes Added|
+| click on button |Next|
+| populate field | Topic | with |Topic Added| 
+| populate field |Population Size | with |41 and above|
+| populate field |Population| with |HighSchool|
+| populate field |Hours Spent| with |3|
+| populate field |Instructional Method(s)| with |CPS|
+| populate field |Assessment Method(s)| with |Quizzes|
+| populate field |Please describe the activity you participated in and your interaction with the team providing care:| with |Added|
+| populate field |What issue is being addressed?| with | Issue is being addressed?|
+| populate field |What similarities and differences are there between the perspective on the situation offered by our academic material, and the situation as it in fact unfolded?| with |Added data|
+| populate field |What was I and the other members of the team trying to accomplish? Was the focus on prevention or emergent care?| with |I and the other members of the team trying to accomplish? Was the focus on prevention or emergent care?|
+| populate field |What did I learn? How, specifically, did I learn it?| with |did I learn|
+| populate field |Based upon what I learned, how am I going to use these lessons in my future practice?| with | my future practice|
+| click on button |Create Activity|
+| click on link |Steven Baltic| 
+| click on link |Profile|
+| click on link |Graduation Activities| 
+| click on link |New Activity| 
+| click on link |Submit Activity for Review | 
+| click on button |Submit Activity|
+| click on button |Yes|
+
+
+
+
+

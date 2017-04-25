@@ -1,0 +1,38 @@
+!3 Please fill out the following before testing
+ * If your TESTING_HOME is located somewhere other than ${automated.testing.home}, update ''automated.testing.home'' in TESTING_HOME/configs/custom.properties
+  * For more information look at [[Changing !-FitNesse-! for Appian installation directory][.FitNesseForAppian.Documentation.Administration.ChangeFitnesseForAppianInstallationDirectory]].
+ * Update the following
+  * Replace ''APPIAN_URL'' with Appian URL including /suite (e.g. https://forum.appian.com/suite)
+  * Replace ''APPIAN_LOCALE'' with (en_US or en_GB) to handle differences in how dates are displayed
+  * Replace ''APPIAN_VERSION'' with (7.10, 7.11, 16.1, 16.2, 16.3)
+  * Replace ''APPIAN_USERNAME'' with username for Appian URL above
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |7.10, 7.11, 16.1, 16.2, 16.3                                      |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Tempo and go to Records with Cauchavius Watts
+!| script                     |
+|login with username|u28850317|and password|asdf1234.|
+| click on menu |Actions|
+|click on link|Request Contract Course Permit|
+| populate field | Permit| with |Independent Study| 
+| populate field | Semester| with |Summer 2017| 
+| populate field | Independent Study Instructor| with |Etienne Pracht| 
+| populate field | Credit Hours to be Taken| with |3| 
+| populate field | Description of Project/Study| with |I like this subject| 
+| populate field | Method of Presentation| with |virtual| 
+|click on button|Submit|
+
+
+
+***!

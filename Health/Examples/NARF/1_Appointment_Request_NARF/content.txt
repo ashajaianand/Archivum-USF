@@ -1,0 +1,78 @@
+!3 Please fill out the following before testing
+ * If your TESTING_HOME is located somewhere other than ${automated.testing.home}, update ''automated.testing.home'' in TESTING_HOME/configs/custom.properties
+  * For more information look at [[Changing !-FitNesse-! for Appian installation directory][.FitNesseForAppian.Documentation.Administration.ChangeFitnesseForAppianInstallationDirectory]].
+ * Update the following
+  * Replace ''APPIAN_URL'' with Appian URL including /suite (e.g. https://forum.appian.com/suite)
+  * Replace ''APPIAN_LOCALE'' with (en_US or en_GB) to handle differences in how dates are displayed
+  * Replace ''APPIAN_VERSION'' with (7.10, 7.11, 16.1, 16.2, 16.3)
+  * Replace ''APPIAN_USERNAME'' with username for Appian URL above
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                  |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Tempo and go to Records with Shabnam Mehra
+!| script                     |
+|login with username|U06125584|and password|asdf1234.|
+| click on menu |Actions|
+|click on link|Request Appointment|
+| populate field | Appointment Type | with |Non-Student Appointment| 
+|click on button|Continue|
+| populate field | Employee already has an Archivum account| with |Yes|
+| populate field | Select Employee| with |Nayana| 
+| populate field | Phone Number| with |9945192356|
+| populate field | Street Address| with |Address bar 1|
+| populate field | Appt Code / PO Box| with |Address bar 2|
+| populate field | City| with |Tampa|
+| populate field | Zip Code| with |33613|
+| populate field | State| with |Florida|
+| populate field | Current/Past USF Employee| with |Yes|
+| populate field | Comments| with |No Comments|
+|click on button|Next|
+| click on checkbox option |New Appointment|
+| click on checkbox option |Extra Compensation|
+| populate field | US Work Authorization| with |Yes|
+| populate field | GEMS Department| with |Community & Family Health|
+| populate field | Building| with |LRC|
+| populate field | Start Date| with |1/24/2018|
+| populate field | End Date| with |1/27/2018|
+| populate field | Room Number| with |308|
+| populate field | Phone Number| with |12341234|
+|click on button|Next|
+| populate field | Appointment Type| with |Faculty Regular|
+| populate field | Tenure Status| with |Tenured|
+| populate field |Tenure / Tenure Earning FTE| with |1|
+| populate field |Faculty Rank| with |Professor|
+| populate field |Working/Administrative Title| with |Working Admin|
+| populate field |Position Number| with |12345|
+| populate field | Funding Plan  | with | C:\doc2.pdf|
+| populate field | CV/Resume | with | C:\doc2.docx|
+| populate field | Position Duties | with | C:\doc1.docx|
+| populate field | Degree Level| with |Masters|
+|click on button|Next|
+| populate field | Supervisor| with |Jane Lundh|
+| click on link | Add Funding Source |
+| populate grid |[1]|column | [2] | row | [1] |with |10001|
+| populate grid |[1]|column | [3] | row | [1] |with |102400|
+| populate grid |[1]|column | [4] | row | [1] |with |PAY002|
+| populate grid |[1]|column | [5] | row | [1] |with |ITC0002|
+| populate grid |[1]|column | [6] | row | [1] |with |PB151911330201|
+| populate grid |[1]|column | [8] | row | [1] |with |1|
+| populate grid |[1]|column | [9] | row | [1] |with |100|
+| populate field | Funding Type| with |Annual Funding|
+| populate field | Annual Funding Cost| with |50000|
+| click on button|Next|
+| populate grid |[1]|column | [8] | row | [1] |with |Etienne Pracht|
+|click on button|Submit Request|
+
+
+***!

@@ -1,0 +1,11 @@
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+
+!*** Login to Tempo and go to Records
+!include .FitNesseForAppian.Examples.Change_of_Advisor.4_Student_Request
+!include .FitNesseForAppian.Examples.Change_of_Advisor.3_New_Faculty_Mentor
+!include .FitNesseForAppian.Examples.Change_of_Advisor.2_Current_Faculty_Mentor
