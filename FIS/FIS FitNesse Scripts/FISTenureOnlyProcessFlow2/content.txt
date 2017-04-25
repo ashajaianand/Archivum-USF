@@ -1,0 +1,15 @@
+!include .FitNesseForAppian.Examples.FISLiaisonIdentifiesCandidateTenureOnlyFlow2
+!include .FitNesseForAppian.Examples.FISCandidateAccessAndFillOutApplication
+!include .FitNesseForAppian.Examples.FISLiaisonCompletesAssignedDuties
+!include .FitNesseForAppian.Examples.FISDeptChairEnterTeachingAndResearchReview
+!include .FitNesseForAppian.Examples.FISCandidateSubmitsForQAReview
+!include .FitNesseForAppian.Examples.FISLiaisonCompletesQAReview
+!include .FitNesseForAppian.Examples.FISCandidateSignsAndSubmits
+!include .FitNesseForAppian.Examples.FISDeptCommitteeReview
+!include .FitNesseForAppian.Examples.FISDeptChairReviewTenureOrPromotionOnly
+!include .FitNesseForAppian.Examples.FISCandidateResponseToDeptReview
+!include .FitNesseForAppian.Examples.FISCollegeCommitteeReview
+!include .FitNesseForAppian.Examples.FISCandidateResponsetoCollegeReview
+!include .FitNesseForAppian.Examples.FISCollegeDeanReviewTenureOrPromotionOnly
+!include .FitNesseForAppian.Examples.FISCandidateFinalResponse
+!include .FitNesseForAppian.Examples.FISCAOReviewTenureOnly
