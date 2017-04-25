@@ -1,3 +1,0 @@
-!include .FitNesseForAppian.Examples.SSMSubmitDocumentForSignature.SSMStudentSubmitsDocument
-!include .FitNesseForAppian.Examples.SSMSubmitDocumentForSignatureNegative.SSMAdvisorDeclinesDocumentSignature
-

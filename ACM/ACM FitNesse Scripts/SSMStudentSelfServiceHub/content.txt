@@ -1,2 +1,0 @@
-!include .FitNesseForAppian.Examples.SSMStudentSelfServiceHub.SSMStudentIdentifiesHelpArea
-!include .FitNesseForAppian.Examples.SSMStudentSelfServiceHub.SSMAdvisorResponseToStudentMessage

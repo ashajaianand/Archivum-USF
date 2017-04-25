@@ -1,4 +1,0 @@
-!include .FitNesseForAppian.Examples.SSMReassignmentOfReferrals.SSMCreateReferral
-!include .FitNesseForAppian.Examples.SSMReassignmentOfReferrals.SSMOriginalAssigneeReassignsReferral
-!include .FitNesseForAppian.Examples.SSMReassignmentOfReferrals.SSMSecondAssigneeRespondsToReassignedReferral
-!include .FitNesseForAppian.Examples.SSMReassignmentOfReferrals.SSMReferralCreatorReviewsResponse
