@@ -15,8 +15,8 @@
 !*** Login to Faculty Profile and Navigate to Update Faculty Record page
 !| script                     |
 |login with username|U47596203| and password |asdf1234.|
-|click on report |My Student Dashboard|
-|click on link |My Actions|
+|click on report |My Student Profile Snapshot|
+|click on link |My Advising Actions|
 |click on link |Submit for Signature|
 |wait for |+1 minute|
 |populate field |Description| with value |Please sign this change of major form|

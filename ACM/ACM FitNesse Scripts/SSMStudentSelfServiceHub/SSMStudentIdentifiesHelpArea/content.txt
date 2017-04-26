@@ -15,8 +15,7 @@
 !*** Login to Faculty Profile and Navigate to Update Faculty Record page
 !| script                     |
 |login with username|U47596203| and password |asdf1234.|
-|click on report |My Student Dashboard|
-|click on link |Self-Service Hub|
+|click on report |My Student Profile Snapshot|
 |populate field |I need help with| with |Academic Planning|
 |populate field |Specifically| with |Drop/Add|
 |populate grid |[1]| column |[1]| row |[1]| with value |[1]|
