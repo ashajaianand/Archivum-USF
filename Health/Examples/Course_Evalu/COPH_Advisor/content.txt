@@ -1,0 +1,58 @@
+!3 Please fill out the following before testing
+ * If your TESTING_HOME is located somewhere other than ${automated.testing.home}, update ''automated.testing.home'' in TESTING_HOME/configs/custom.properties
+  * For more information look at [[Changing !-FitNesse-! for Appian installation directory][.FitNesseForAppian.Documentation.Administration.ChangeFitnesseForAppianInstallationDirectory]].
+ * Update the following
+  * Replace ''APPIAN_URL'' with Appian URL including /suite (e.g. https://forum.appian.com/suite)
+  * Replace ''APPIAN_LOCALE'' with (en_US or en_GB) to handle differences in how dates are displayed
+  * Replace ''APPIAN_VERSION'' with (7.10, 7.11, 16.1, 16.2, 16.3)
+  * Replace ''APPIAN_USERNAME'' with username for Appian URL above
+  * Update ${automated.testing.home}/configs/users.properties and add a line for the above username (e.g. test.user=password)
+  
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!*** Initialization
+!| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with browser|CHROME                                             |
+|set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
+|set appian version to                 |17.1                                     |
+|set appian locale to                  |en_US or en_GB|
+***!
+!*** Login to Tempo
+!| script                     |
+|login with username|U64055944|and password|asdf1234.|
+| click on menu |Actions|
+|click on link|Create New Evaluation Batch  |
+| populate field | Batch Name| with |Test_Batch|
+| populate field |Start Date| with | 10/03/2017 | 
+| populate field |End Date| with |11/30/2017|
+| populate field |Report Release Date| with |12/09/2017|
+| populate field |Reminder Date 1| with |11/15/2017|
+| populate field |Reminder Date 2| with |11/16/2017|
+| populate field |Reminder Date 3| with |11/20/2017|
+| click on button |Next|
+| populate field |Survey Choice| with |Test_Project|
+| populate field |Survey Type| with |Offering|
+| click on button |APPLY FILTER|
+| click on button |ADD ALL OFFERINGS|
+| click on button |YES|
+| click on button |SAVE SURVEY|
+| populate field |Survey Choice| with |COPH Faculty Test|
+| populate field |Survey Type | with |Faculty|
+| click on button |APPLY FILTER|
+| click on button |ADD ALL OFFERINGS|
+| click on button |YES|
+| click on button |SUBMIT BATCH|
+| click on button |YES|
+
+
+
+
+
+
+
+
+
+
