@@ -12,7 +12,6 @@
 |set appian version to                 |17.1                                      |
 |set appian locale to                  |en_US or en_GB|
 ***!
-!*** Login to Faculty Profile and Navigate to Update Faculty Record page
 !| script                     |
 |login with username|U57936635| and password |asdf1234.|
 |click on menu |Tasks|
