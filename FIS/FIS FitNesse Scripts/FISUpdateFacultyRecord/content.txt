@@ -14,11 +14,11 @@
 ***!
 !*** Login to Faculty Profile and Navigate to Update Faculty Record page
 !| script                     |
-|login with username|U57936635| and password |asdf1234.|
+|login with username|U32007275| and password |asdf1234.|
 |click on menu |Records|
 |click on record type |Faculty Records|
-|search for |Claudia Aguado Loi|
-|click on link |Claudia Aguado Loi|
+|search for |John Adams|
+|click on link |John Adams|
 |click on link |Related Actions|
 |click on link |Update Faculty Bio|
 |click on link |Personal Information|

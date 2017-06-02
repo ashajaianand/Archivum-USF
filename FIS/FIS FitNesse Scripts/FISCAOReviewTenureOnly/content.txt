@@ -12,7 +12,7 @@
 |set appian version to                 |17.1                                      |
 |set appian locale to                  |en_US or en_GB|
 ***!
-!*** Login to T&P Application Candidate Nomination Screen
+!*** Login to Reports tab
 !| script                     |
 |login with username|U42111324| and password |asdf1234.|
 |click on report |Tenure and Promotion Dashboard|
