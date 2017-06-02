@@ -20,3 +20,4 @@
 |click on radio option |Respond to Referral|
 |populate field |Response| with |Advised student not to drop class to ensure completion of her minor|
 |click on button |Submit|
+|wait for |+10 seconds|

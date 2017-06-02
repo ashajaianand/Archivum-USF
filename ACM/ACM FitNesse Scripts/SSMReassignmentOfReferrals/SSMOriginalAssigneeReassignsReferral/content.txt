@@ -18,6 +18,7 @@
 |click on menu |Tasks|
 |click on task |[1]|
 |click on radio option |Reassign Referral|
-|populate field |Assignee| with |Martha Coulter|
 |populate field |Requested Action| with value |I'm reassigning this referral to you because you are the correct person to take care of this.|
-|click on button |Submit|
+|populate field |New Assignee| with |Martha Coulter|
+|click on button |Reassign|
+|wait for |+10 seconds|

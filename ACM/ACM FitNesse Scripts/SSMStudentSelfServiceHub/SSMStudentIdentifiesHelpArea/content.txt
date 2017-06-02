@@ -18,10 +18,10 @@
 |click on report |My Student Profile Snapshot|
 |populate field |I need help with| with |Academic Planning|
 |populate field |Specifically| with |Drop/Add|
-|populate grid |[1]| column |[1]| row |[1]| with value |[1]|
+|populate grid |[2]| column |[1]| row |[1]| with value |[1]|
 |populate |paragraph| field |[1]| with |I need help with deciding if I should drop my class. Can you help guide me to resources?|
 |click on button |Message|
 |click on button |Yes|
 |click on link |Academic Policies|
 |click on link |GPA Calculator|
-|wait for |+5 minutes|
+|wait for |+20 seconds|

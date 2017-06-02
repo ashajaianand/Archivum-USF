@@ -12,21 +12,20 @@
 |set appian version to                 |17.1                                      |
 |set appian locale to                  |en_US or en_GB|
 ***!
-!*** Login as Advisor, navigate to Student Success Dashboard
-!| script                     |
+!*** Login as Advisor, navigate to Student Record
+!| script                     |                 
 |login with username|U32007275| and password |asdf1234.|
-|click on report |Student Success Dashboard|
-|click on link |Create a Referral|
+|click on menu |Records|
+|click on record type |Students|
 |search for |Nicole Abdo|
 |click on link |Nicole Abdo|
-|click on link |Related Actions|
-|click on link |Create a Referral|
+|click on button |Create a Referral|
 |populate field |Subject| with |Dropping class|
-|populate field |Deadline| with |5/6/2017|
+|populate field |Deadline| with |10/6/2017|
 |click on radio option |Medium[1]|
 |click on radio option |Medium[2]|
 |populate field |Requested Action| with |Help student evaluate dropping a class needed for her minor|
-|populate field |Assignee| with |Claudia Aguado Loi|
+|populate field |Assignee| with value |Claudia Aguado|
 |click on checkbox option |Academic Performance|
-|click on checkbox option |Major/Minor|
-|click on button |Submit|
+|click on button |Create Referral|
+|wait for |+10 seconds|
