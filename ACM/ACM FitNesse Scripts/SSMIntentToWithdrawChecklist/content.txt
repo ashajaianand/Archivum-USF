@@ -1,0 +1,3 @@
+!include .FitNesseForAppian.Examples.SSMIntentToWithdrawChecklist.SSMSubmitIntentToWithdrawChecklist
+!include .FitNesseForAppian.Examples.SSMIntentToWithdrawChecklist.SSMAdvocateReviewsReferral
+!include .FitNesseForAppian.Examples.SSMIntentToWithdrawChecklist.SSMStudentAcknowledgesReferralResponse
