@@ -17,7 +17,7 @@
 !| script                              |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
 |setup with browser|CHROME                                             |
 |set appian url to                     |https://usftest.appiancloud.com/suite/portal/login.jsp|
-|set appian version to                 |7.10, 7.11, 16.1, 16.2, 16.3                                      |
+|set appian version to                 | 17.1                                     |
 |set appian locale to                  |en_US or en_GB|
 ***!
 !*** Login as John Petrila
