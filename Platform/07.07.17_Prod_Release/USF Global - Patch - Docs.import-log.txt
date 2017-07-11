@@ -1,0 +1,597 @@
+Success (22):
+content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 115215 "USF Message Icon"
+content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 115216 "nophoto"
+content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 115217 "preview"
+content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 115218 "Status_OK_Grey"
+content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 115219 "noImage"
+content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 115220 "USF_doc_createTAR"
+content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 115221 "USF_IMG_moreInfoSearchIcon"
+content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 115222 "USF_IMG_WARNING"
+content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 115223 "USF_IMG_MORE_INFO"
+content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 115224 "USF_IMG_BOOK_ICON"
+content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 115225 "USF_IMG_CLIPBOARD_CHECK_ICON"
+content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 115226 "USF_IMG_WRENCH_ICON"
+content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 115227 "USF_IMG_BOOKMARK_ICON"
+content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 115228 "USF_IMG_CALENDAR_ICON"
+content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 115229 "USF_IMG_HANDSHAKE"
+content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 115230 "USF_IMG_MEMBER"
+content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 115231 "USF Bulls2"
+content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 115232 "USF Paper Icon"
+content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 115233 "USF Approval Icon"
+content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 115234 "USF Shuffle Icon"
+content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 115235 "USF Create Icon"
+content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 115236 "USF Chart Up Icon"
+
+Trace:
+2017-07-07 21:34:13.699 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Begin transport.
+2017-07-07 21:34:13.699 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 De-serializing object from XML.
+2017-07-07 21:34:13.7 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Setting import properties.
+2017-07-07 21:34:13.7 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Importing object references.
+2017-07-07 21:34:13.7 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: Document.forum
+2017-07-07 21:34:13.7 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: Document.parent
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@956ec81[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:13.702 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 109617 Updating existing object.
+2017-07-07 21:34:13.861 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 115215 Object transported.
+2017-07-07 21:34:13.861 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Begin transport.
+2017-07-07 21:34:13.861 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 De-serializing object from XML.
+2017-07-07 21:34:13.862 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Setting import properties.
+2017-07-07 21:34:13.862 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Importing object references.
+2017-07-07 21:34:13.862 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: Document.forum
+2017-07-07 21:34:13.862 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: Document.parent
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@2549e504[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:13.864 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 67894 Updating existing object.
+2017-07-07 21:34:14.025 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 115216 Object transported.
+2017-07-07 21:34:14.025 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Begin transport.
+2017-07-07 21:34:14.025 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 De-serializing object from XML.
+2017-07-07 21:34:14.026 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Setting import properties.
+2017-07-07 21:34:14.026 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Importing object references.
+2017-07-07 21:34:14.026 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: Document.forum
+2017-07-07 21:34:14.027 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: Document.parent
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@77aebd10[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.029 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 67982 Updating existing object.
+2017-07-07 21:34:14.195 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 115217 Object transported.
+2017-07-07 21:34:14.195 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Begin transport.
+2017-07-07 21:34:14.195 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 De-serializing object from XML.
+2017-07-07 21:34:14.196 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Setting import properties.
+2017-07-07 21:34:14.196 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Importing object references.
+2017-07-07 21:34:14.196 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: Document.forum
+2017-07-07 21:34:14.196 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: Document.parent
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@3dbd90a5[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.198 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 68138 Updating existing object.
+2017-07-07 21:34:14.342 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 115218 Object transported.
+2017-07-07 21:34:14.342 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Begin transport.
+2017-07-07 21:34:14.342 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 De-serializing object from XML.
+2017-07-07 21:34:14.343 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Setting import properties.
+2017-07-07 21:34:14.343 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Importing object references.
+2017-07-07 21:34:14.343 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: Document.forum
+2017-07-07 21:34:14.344 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: Document.parent
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@620decbf[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.345 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 68263 Updating existing object.
+2017-07-07 21:34:14.502 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 115219 Object transported.
+2017-07-07 21:34:14.502 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Begin transport.
+2017-07-07 21:34:14.502 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 De-serializing object from XML.
+2017-07-07 21:34:14.503 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Setting import properties.
+2017-07-07 21:34:14.503 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Importing object references.
+2017-07-07 21:34:14.503 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: Document.forum
+2017-07-07 21:34:14.504 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: Document.parent
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@d3c85d0[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.505 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 Creating object.
+2017-07-07 21:34:14.644 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 115220 Object transported.
+2017-07-07 21:34:14.644 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Begin transport.
+2017-07-07 21:34:14.644 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 De-serializing object from XML.
+2017-07-07 21:34:14.645 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Setting import properties.
+2017-07-07 21:34:14.645 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Importing object references.
+2017-07-07 21:34:14.645 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: Document.forum
+2017-07-07 21:34:14.645 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: Document.parent
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@44979d14[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.647 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 86094 Updating existing object.
+2017-07-07 21:34:14.786 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 115221 Object transported.
+2017-07-07 21:34:14.786 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Begin transport.
+2017-07-07 21:34:14.786 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 De-serializing object from XML.
+2017-07-07 21:34:14.787 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Setting import properties.
+2017-07-07 21:34:14.787 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Importing object references.
+2017-07-07 21:34:14.787 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: Document.forum
+2017-07-07 21:34:14.787 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: Document.parent
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@1e292b0e[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.789 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 90348 Updating existing object.
+2017-07-07 21:34:14.931 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 115222 Object transported.
+2017-07-07 21:34:14.931 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Begin transport.
+2017-07-07 21:34:14.931 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 De-serializing object from XML.
+2017-07-07 21:34:14.932 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Setting import properties.
+2017-07-07 21:34:14.932 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Importing object references.
+2017-07-07 21:34:14.932 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: Document.forum
+2017-07-07 21:34:14.933 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: Document.parent
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@97aa0dc[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:14.935 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 90352 Updating existing object.
+2017-07-07 21:34:15.072 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 115223 Object transported.
+2017-07-07 21:34:15.072 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Begin transport.
+2017-07-07 21:34:15.072 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 De-serializing object from XML.
+2017-07-07 21:34:15.073 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Setting import properties.
+2017-07-07 21:34:15.073 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Importing object references.
+2017-07-07 21:34:15.073 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: Document.forum
+2017-07-07 21:34:15.073 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: Document.parent
+2017-07-07 21:34:15.075 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@3847eba8[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.075 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.076 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.076 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.076 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.076 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.076 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.076 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 110179 Updating existing object.
+2017-07-07 21:34:15.216 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 115224 Object transported.
+2017-07-07 21:34:15.216 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Begin transport.
+2017-07-07 21:34:15.216 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 De-serializing object from XML.
+2017-07-07 21:34:15.217 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Setting import properties.
+2017-07-07 21:34:15.217 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Importing object references.
+2017-07-07 21:34:15.217 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: Document.forum
+2017-07-07 21:34:15.218 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: Document.parent
+2017-07-07 21:34:15.223 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@1c54e81d[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.223 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.223 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.223 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.224 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.224 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.224 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.224 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 110181 Updating existing object.
+2017-07-07 21:34:15.355 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 115225 Object transported.
+2017-07-07 21:34:15.355 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Begin transport.
+2017-07-07 21:34:15.355 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 De-serializing object from XML.
+2017-07-07 21:34:15.356 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Setting import properties.
+2017-07-07 21:34:15.356 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Importing object references.
+2017-07-07 21:34:15.356 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: Document.forum
+2017-07-07 21:34:15.356 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: Document.parent
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@27e649dc[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.358 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 110185 Updating existing object.
+2017-07-07 21:34:15.495 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 115226 Object transported.
+2017-07-07 21:34:15.495 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Begin transport.
+2017-07-07 21:34:15.495 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 De-serializing object from XML.
+2017-07-07 21:34:15.497 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Setting import properties.
+2017-07-07 21:34:15.497 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Importing object references.
+2017-07-07 21:34:15.497 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: Document.forum
+2017-07-07 21:34:15.497 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: Document.parent
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@28aead70[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.499 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 110186 Updating existing object.
+2017-07-07 21:34:15.649 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 115227 Object transported.
+2017-07-07 21:34:15.649 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Begin transport.
+2017-07-07 21:34:15.649 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 De-serializing object from XML.
+2017-07-07 21:34:15.651 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Setting import properties.
+2017-07-07 21:34:15.651 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Importing object references.
+2017-07-07 21:34:15.651 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: Document.forum
+2017-07-07 21:34:15.651 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: Document.parent
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@588f34f9[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.653 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 109966 Updating existing object.
+2017-07-07 21:34:15.814 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 115228 Object transported.
+2017-07-07 21:34:15.814 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Begin transport.
+2017-07-07 21:34:15.814 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 De-serializing object from XML.
+2017-07-07 21:34:15.815 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Setting import properties.
+2017-07-07 21:34:15.815 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Importing object references.
+2017-07-07 21:34:15.815 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: Document.forum
+2017-07-07 21:34:15.815 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: Document.parent
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@5b28c355[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.817 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 108370 Updating existing object.
+2017-07-07 21:34:15.953 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 115229 Object transported.
+2017-07-07 21:34:15.953 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Begin transport.
+2017-07-07 21:34:15.953 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 De-serializing object from XML.
+2017-07-07 21:34:15.955 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Setting import properties.
+2017-07-07 21:34:15.955 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Importing object references.
+2017-07-07 21:34:15.955 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: Document.forum
+2017-07-07 21:34:15.956 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: Document.parent
+2017-07-07 21:34:15.957 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@312c6191[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:15.958 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 108372 Updating existing object.
+2017-07-07 21:34:16.091 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 115230 Object transported.
+2017-07-07 21:34:16.091 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Begin transport.
+2017-07-07 21:34:16.091 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 De-serializing object from XML.
+2017-07-07 21:34:16.092 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Setting import properties.
+2017-07-07 21:34:16.092 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Importing object references.
+2017-07-07 21:34:16.092 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: Document.forum
+2017-07-07 21:34:16.093 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: Document.parent
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@ac73bc7[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.095 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 Creating object.
+2017-07-07 21:34:16.264 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 115231 Object transported.
+2017-07-07 21:34:16.264 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Begin transport.
+2017-07-07 21:34:16.264 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 De-serializing object from XML.
+2017-07-07 21:34:16.265 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Setting import properties.
+2017-07-07 21:34:16.265 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Importing object references.
+2017-07-07 21:34:16.265 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: Document.forum
+2017-07-07 21:34:16.266 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: Document.parent
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@76f064b4[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.267 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.268 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 Creating object.
+2017-07-07 21:34:16.43 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 115232 Object transported.
+2017-07-07 21:34:16.43 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Begin transport.
+2017-07-07 21:34:16.43 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 De-serializing object from XML.
+2017-07-07 21:34:16.431 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Setting import properties.
+2017-07-07 21:34:16.431 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Importing object references.
+2017-07-07 21:34:16.431 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: Document.forum
+2017-07-07 21:34:16.432 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: Document.parent
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@52267d58[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.435 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 Creating object.
+2017-07-07 21:34:16.571 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 115233 Object transported.
+2017-07-07 21:34:16.571 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Begin transport.
+2017-07-07 21:34:16.571 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 De-serializing object from XML.
+2017-07-07 21:34:16.572 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Setting import properties.
+2017-07-07 21:34:16.572 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Importing object references.
+2017-07-07 21:34:16.573 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: Document.forum
+2017-07-07 21:34:16.573 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: Document.parent
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@36b1ea7d[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.575 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 Creating object.
+2017-07-07 21:34:16.699 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 115234 Object transported.
+2017-07-07 21:34:16.699 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Begin transport.
+2017-07-07 21:34:16.699 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 De-serializing object from XML.
+2017-07-07 21:34:16.701 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Setting import properties.
+2017-07-07 21:34:16.701 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Importing object references.
+2017-07-07 21:34:16.701 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: Document.forum
+2017-07-07 21:34:16.701 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: Document.parent
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@4e0d0b8a[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.703 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 Creating object.
+2017-07-07 21:34:16.828 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 115235 Object transported.
+2017-07-07 21:34:16.828 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Begin transport.
+2017-07-07 21:34:16.828 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 De-serializing object from XML.
+2017-07-07 21:34:16.829 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Setting import properties.
+2017-07-07 21:34:16.829 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Importing object references.
+2017-07-07 21:34:16.829 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: Document.forum
+2017-07-07 21:34:16.83 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: Document.parent
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@299982a9[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-07 21:34:16.832 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 Creating object.
+2017-07-07 21:34:16.966 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 115236 Object transported.
+2017-07-07 21:34:16.97 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 115215 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 115215 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000de9c-7fae-8000-9ba2-011c48011c48_209426 115215 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 115216 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 115216 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000db6e-7612-8000-9ba2-011c48011c48_6617 115216 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 115217 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 115217 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dc08-8c37-8000-9ba2-011c48011c48_56606 115217 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 115218 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 115218 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_90624 115218 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 115219 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 115219 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dcbf-951f-8000-9ba2-011c48011c48_92902 115219 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 115220 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 115220 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125505 115220 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 115221 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 115221 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_125787 115221 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 115222 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 115222 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_128268 115222 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 115223 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 115223 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dda7-9428-8000-9ba2-011c48011c48_140735 115223 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 115224 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 115224 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_215971 115224 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 115225 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 115225 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216619 115225 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 115226 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 115226 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216622 115226 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 115227 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 115227 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deaa-80f4-8000-9ba2-011c48011c48_216625 115227 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 115228 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 115228 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000deb5-0bcc-8000-9ba2-011c48011c48_218905 115228 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 115229 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 115229 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231056 115229 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 115230 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 115230 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000dee0-8e2c-8000-9ba2-011c48011c48_231601 115230 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 115231 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 115231 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000df03-fe19-8000-9ba2-011c48011c48_235520 115231 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 115232 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 115232 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237351 115232 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 115233 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 115233 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237354 115233 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 115234 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 115234 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237359 115234 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 115235 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 115235 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237370 115235 Post-transport update done.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 115236 Begin post-transport update.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 115236 Finalizing imported object.
+2017-07-07 21:34:16.97 DEBUG content _a-0000def2-cb5b-8000-9ba2-011c48011c48_237373 115236 Post-transport update done.
